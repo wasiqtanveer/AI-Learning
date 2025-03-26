@@ -4,7 +4,7 @@ marks_3 = int(input("Enter the marks of 3rd subject: "))
 
 total = ((marks_1 + marks_2 + marks_3 ) / 300) * 100
 
-if total >= 40 :
+if total >= 40  and marks_1 >= 33 and marks_2 >= 33 and marks_3 >= 33:
     print("You are pass" , total)
 
 else:
