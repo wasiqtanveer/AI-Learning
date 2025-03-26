@@ -1,0 +1,21 @@
+num_1 = int(input("enter a number: "))
+num_2 = int(input("enter a number: "))
+num_3 = int(input("enter a number: "))
+num_4 = int(input("enter a number: "))
+num_5 = int(input("enter a number: "))
+num_6 = int(input("enter a number: "))
+num_7 = int(input("enter a number: "))
+num_8 = int(input("enter a number: "))
+
+total = set()
+
+total.add(num_1)
+total.add(num_2)
+total.add(num_3)
+total.add(num_4)
+total.add(num_5)
+total.add(num_6)
+total.add(num_7)
+total.add(num_8)
+
+print(total)
