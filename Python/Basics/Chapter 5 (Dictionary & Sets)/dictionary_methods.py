@@ -11,7 +11,7 @@ print(marks.keys()) # gives the keys (items at he left)
 print(marks.values()) # gives the values (items at he right)
 print(marks.get("wasiq")) 
 """
-gives the value of the specific key, it si different form marks(["wasiq"]) in the way that
+gives the value of the specific key, it is different form marks(["wasiq"]) in the way that
 if there is no wasiq in the first it will return none, while with the other
 it will return error
 """
