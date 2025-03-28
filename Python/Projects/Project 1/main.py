@@ -22,11 +22,13 @@ user_choice = dict[user] #user choice
 
 print(f"User chose: {dict_2[user_choice]}\nComputer chose: {dict_2[computer_choice]} ")
 
+# game's logic
 if ((user_choice == -1 and computer_choice == 1) or (user_choice == 0 and computer_choice == -1) or (user_choice == 1 and computer_choice == 0) ):
     print("👨 User Won 👨")
 
-elif ((user_choice == -1 and computer_choice == -1) or (user_choice == 0 and computer_choice == 0) or (user_choice == 1 and computer_choice == 1) ):
+elif (user_choice == computer_choice  ):
     print("📍 Draw 📍")
 
 else:
     print("🤖 Computer won 🤖")
+    

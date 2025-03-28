@@ -7,6 +7,7 @@
 
 for i in range(10):
     if (i == 5 or i == 2 or i == 3):
+        
         continue # as i = 5  skip the number and continue
     
     print(i)
