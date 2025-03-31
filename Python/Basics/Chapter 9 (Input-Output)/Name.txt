@@ -1,1 +1,6 @@
 My name is wasiq tanverr and i am making this file through python
+this is line 2 
+i am a student
+i am the middle child
+i am the middle child
+i am the middle child
