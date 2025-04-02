@@ -1,3 +1,6 @@
+import stat
+
+
 class students:
     id = ""
     name = ""
@@ -13,6 +16,14 @@ class students:
             return
         else:
             print(f"ID: {self.id}\nName: {self.name}\nUniversity: {self.university}\nSemester: {self.semester}")
+    '''      
+    if a function isnt using any class attribute then we dont have to use self as it will pass
+    the whole object , insstead we use the static method it tells the systme that a function
+    dosent use the object in its operation
+    '''
+    @staticmethod
+    def hello():
+        print("Hello,students")
             # OR
 #             print(f"""
 # +----------------------------------+
@@ -25,13 +36,12 @@ class students:
 # +----------------------------------+
 # """)
 
-     
+students.hello()     
 iqbal = students()
 iqbal.name = "Iqbal"
 iqbal.id = "123"
 iqbal.getinfo() # This is how you can call a method of a class by passing an object as an argument
-
-
+print()
 wasiq = students()
 wasiq.name = "Wasiq"
 wasiq.id = "456"
