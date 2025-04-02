@@ -17,9 +17,17 @@ class students:
         else:
             print(f"ID: {self.id}\nName: {self.name}\nUniversity: {self.university}\nSemester: {self.semester}")
     '''      
-    if a function isnt using any class attribute then we dont have to use self as it will pass
-    the whole object , insstead we use the static method it tells the systme that a function
-    dosent use the object in its operation
+    """
+If a function inside a class does not use any object (instance) attributes,  
+we don’t need to pass 'self'. Instead, we use a static method.  
+
+A static method is a function inside a class that:  
+- Does not access or modify instance attributes.  
+- Does not need 'self' because it does not use the object itself.  
+- Works independently like a normal function but is still part of the class.  
+We define it using @staticmethod.
+"""
+
     '''
     @staticmethod
     def hello():
