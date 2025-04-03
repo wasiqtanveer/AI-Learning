@@ -55,3 +55,4 @@ Under Root: {self.under_root()}
 
 number1 = calculator(16)
 print(number1)  
+print()
