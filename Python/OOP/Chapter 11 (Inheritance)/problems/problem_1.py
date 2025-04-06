@@ -9,11 +9,9 @@ class vector_3D(vector):
         self.z = z
         
     def __str__(self):
-        return f"""
-X vector: {self.x}
-Y vector: {self.y}  
-Z vector: {self.z}
-        """    
-        
+        return f"{self.x}i + {self.y}j + {self.z}k"    
+# X vector: {self.x}
+# Y vector: {self.y}  
+# Z vector: {self.z}        
 d3 = vector_3D(3,8,5)
 print(d3)
