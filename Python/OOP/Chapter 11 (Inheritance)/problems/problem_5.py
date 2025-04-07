@@ -18,4 +18,5 @@ vec2 = vector(1,2,3)
 
 print("Vector Addition:",vec+vec2)
 print("Vector Multiplication:",vec*vec2)
-print("Vector 1:",vec)
+
+# The above code is a simple implementation of a vector class in Python.
