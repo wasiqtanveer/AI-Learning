@@ -12,3 +12,4 @@ numbers.pop(2) # removes element at index 2
 print(numbers)
 numbers.remove(2) # Removes the first occurrence of a specified value, Does not return the removed element.
 
+# lists are ordered and changeable, like it is possible to change the value of an element in a list

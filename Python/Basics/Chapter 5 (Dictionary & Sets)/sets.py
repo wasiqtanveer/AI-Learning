@@ -19,3 +19,10 @@ set2 = {1,43,54,42,5,31}
 
 print(set1.intersection(set2))
 print(set1.union(set2))
+
+# unordered and unique
+# Use when:
+
+# You want to remove duplicates.
+
+# You just care about whether something exists, not the order.

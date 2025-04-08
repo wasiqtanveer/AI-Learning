@@ -10,3 +10,6 @@ new  = tuple.count(2)
 neww  = tuple.index(4)
 print(new)
 print(neww)
+
+
+# tuple are ordered and unchangeable, meaning they cannot be changed or modified
