@@ -59,4 +59,3 @@ if new_highscore != highscore:
 
 print(f"Guessed in   : {tries} tries")
 
-    
