@@ -30,4 +30,12 @@ try:
 except TypeError as e:
     print("An exception occurred: ", e)
     
+# ================= finally block =======================
+try:
+    number = int(input("Enter a number: "))
+except ValueError as e:
+    print("An exception occurred: ", e)
+finally:
+    print("This block will always execute")
+    
     
