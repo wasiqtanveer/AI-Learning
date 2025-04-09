@@ -1,6 +1,9 @@
 # number = int(input("Enter a number: "))
 # print("Number is: ", number) 
 
+from decimal import DivisionByZero
+
+
 try:
     number = int(input("Enter a number: "))
 
@@ -23,12 +26,12 @@ except ZeroDivisionError as e:
     
 # type error
 
-try:
+# try:
     # a = "5" + 3
-    print(a)
+    # print(a)
     
-except TypeError as e:
-    print("An exception occurred: ", e)
+# except TypeError as e:
+#     print("An exception occurred: ", e)
     
 # ================= finally block =======================
 try:
@@ -39,3 +42,12 @@ finally:
     print("This block will always execute")
     
     
+# raising error
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter another number: "))
+
+if num2 == 0:
+    raise ZeroDivisionError ("You can't divide by zero")
+else:
+    print(num1/num2)
+# ================= custom exception =======================   
