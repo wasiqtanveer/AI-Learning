@@ -13,6 +13,8 @@ Thanks you for your tiny spark,
 He could not see which way to go,
 If you did not twinkle so.   
 
+
+  
 In the dark blue sky you keep,
 And often thro' my curtains peep,
 For you never shut your eye,
