@@ -11,7 +11,7 @@ Twinkle, twinkle, all the night.
 Then the trav'ller in the dark,
 Thanks you for your tiny spark,
 He could not see which way to go,
-If you did not twinkle so.
+If you did not twinkle so. 
 
 In the dark blue sky you keep,
 And often thro' my curtains peep,
