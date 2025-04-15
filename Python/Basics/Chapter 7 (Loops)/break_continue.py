@@ -11,7 +11,7 @@ for i in range(10):
         continue # as i = 5  skip the number and continue
     
     print(i)
- 
+    
     # ============ using pass in loop
     for i in range(10):
         pass #in case you want to populate this section later or not at all, without pass it will throw error
